@@ -1,0 +1,81 @@
+<config folder="files/results/">
+	<level id="friedhof" runs="10"> 
+		<meta>
+			<author>Max Mustermann</author>
+		</meta>
+		<environment dimX="100" dimY="100" terrainMesh="true" segmentsX="25" segmentsY="25" center="true">
+			<heightmap src="heightmap.bmp" min="0" max="10"/>
+		</environment>
+		<layers>
+			<layer no="1" id="trees" static="true" units="1">
+	            <densitymap src="densitymap.bmp"/>
+				<objects>
+					<object id="birch" weight="0.6" propability="0.008" url="../vegetation/birch.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="1.0" max="5.0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+					<object id="spruce" weight="0.4" propability="0.007" url="../vegetation/spruce.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="1.0" max="5.0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+				</objects>
+			</layer>
+			<layer no="2" id="bushes" static="false" units="1">
+	            <densitymap src="densitymap.bmp"/>
+				<objects>
+					<object id="birchchrub" weight="1" propability="0.013" url="../vegetation/birchchrub.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="0" max="0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+				</objects>
+			</layer>
+			<layer no="3" id="grass" static="false" units="4">
+	            <densitymap src="densitymap.bmp"/>
+				<objects>
+					<object id="roadshrub1" weight="0.05" propability="0.1" url="../vegetation/roadshrub1.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="0" max="0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+					<object id="grass1" weight="0.5" propability="0.1" url="../vegetation/grass1.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="0" max="0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+					<object id="grass2" weight="0.2" propability="0.1" url="../vegetation/grass2.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="0" max="0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+					<object id="grass3" weight="0.15" propability="0.1" url="../vegetation/grass3.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="0" max="0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+					<object id="grass4" weight="0.15" propability="0.1" url="../vegetation/grass4.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="0" max="0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+					<object id="grass5" weight="0.05" propability="0.1" url="../vegetation/grass5.x3d">
+						<height min="0.1" max="0.8"/>
+						<radius min="0" max="0"/>
+						<scale min="1.0" max="2.15"/>
+						<degree min="3.14" max="4.71"/>
+					</object>
+				</objects>
+			</layer>
+		</layers>
+	</level>
+</config>

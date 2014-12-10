@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.2//EN" "http://www.web3d.org/specifications/x3d-3.2.dtd">
+<X3D profile='Immersive' version='3.2' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.2.xsd'>
+    <head>
+        <meta content='*enter FileNameWithNoAbbreviations.x3d here*' name='title'/>
+        <meta content='*enter description here, short-sentence summaries preferred*' name='description'/>
+        <meta content='*enter name of original author here*' name='creator'/>
+        <meta content='*if manually translating VRML-to-X3D, enter name of person translating here*' name='translator'/>
+        <meta content='*enter date of initial version here*' name='created'/>
+        <meta content='*enter date of translation here*' name='translated'/>
+        <meta content='*enter date of latest revision here*' name='modified'/>
+        <meta content='*enter version here, if any*' name='version'/>
+        <meta content='*enter reference citation or relative/online url here*' name='reference'/>
+        <meta content='*enter additional url/bibliographic reference information here*' name='reference'/>
+        <meta content='*enter reference resource here if required to support function, delivery, or coherence of content*' name='requires'/>
+        <meta content='*enter copyright information here* Example: Copyright (c) Web3D Consortium Inc. 2008' name='rights'/>
+        <meta content='*enter drawing filename/url here*' name='drawing'/>
+        <meta content='*enter image filename/url here*' name='image'/>
+        <meta content='*enter movie filename/url here*' name='MovingImage'/>
+        <meta content='*enter photo filename/url here*' name='photo'/>
+        <meta content='*enter subject keywords here*' name='subject'/>
+        <meta content='*enter permission statements or url here*' name='accessRights'/>
+        <meta content='*insert any known warnings, bugs or errors here*' name='warning'/>
+        <meta content='*enter online Uniform Resource Identifier (URI) or Uniform Resource Locator (URL) address for this file here*' name='identifier'/>
+        <meta content='X3D-Edit 3.3, https://savage.nps.edu/X3D-Edit' name='generator'/>
+        <meta content='../../license.html' name='license'/>
+        <!-- Additional authoring resources for meta-tags: http://www.dublincore.org/documents/dcmi-terms http://www.dublincore.org/documents/dces http://www.w3.org/TR/html4/struct/global.html#h-7.4.4 http://vancouver-webpages.com/META http://vancouver-webpages.com/META/about-mk-metas2.html Additional authoring resources for language codes: ftp://ftp.isi.edu/in-notes/bcp/bcp47.txt http://www.loc.gov/standards/iso639-2/langhome.html http://www.iana.org/numbers.html#L -->
+    </head>
+    <Scene>
+        <Group>       
+			<!-- rechte Seite -->
+			<Transform translation="0 0.2 24" rotation="0 1 0 1.7">
+                <Inline  url="../tombstones/Kann.x3d" />
+            </Transform>
+			<Transform translation="2 0 20" rotation="0 1 0 1.3">
+                <Inline  url="../tombstones/Hermann-Lifmann.x3d" />
+            </Transform>
+			<Transform translation="5 0.5 16" rotation="0 1 0 1.9">
+                <Inline  url="../tombstones/Hartog-Neumark_Grabstein.x3d" />
+            </Transform>
+            <Transform translation="7 0 12" rotation="0 1 0 1.1">
+                <Inline  url="../tombstones/Familie_Weinberg.x3d" />
+            </Transform>            
+            <Transform translation="6 0 8" rotation="0 1 0 -1">
+                <Inline  url="../tombstones/Kaufmann.x3d" />
+            </Transform>
+            <Transform translation="3 0 4" rotation="0 1 0 -1.1">
+                <Inline  url="../tombstones/Lilienfeld.x3d" />
+            </Transform>
+            <Transform translation="0 0 0" rotation="0 1 0 -0.6">
+                <Inline  url="../tombstones/Martha-Neumark.x3d" />
+            </Transform>
+            <Transform translation="-4 0 -4" rotation="0 1 0 -0.8"> 
+                <Inline  url="../tombstones/Neumark.x3d" />
+            </Transform>
+            <Transform translation="-8 0 -8" rotation="0 1 0 -0.4">
+                <Inline  url="../tombstones/Regine_Neumark-Grabstein-Vorderansicht.x3d" />
+            </Transform>
+            <Transform translation="-12 0 -12" rotation="0 1 0 -0.35">
+                <Inline  url="../tombstones/Rudolf-Nussbaum.x3d" />
+            </Transform>
+			
+            <Transform translation="-1 0 9" rotation="0 1 0 -0.9">
+                <Inline  url="../tombstones/Weil.x3d" />
+            </Transform>
+			<Transform translation="-0 0 13" rotation="0 1 0 -1.65">
+                <Inline  url="../tombstones/Falk.x3d" />
+            </Transform>
+			<!-- linke Seite -->
+			<Transform translation="-18 0 -0.5" rotation="0 1 0 -1.75">
+                <Inline  url="../tombstones/Bernhard_Elkan.x3d" />
+            </Transform>
+			<Transform translation="-17 0 4" rotation="0 1 0 -1.3">
+                <Inline  url="../tombstones/Ernst_Ransenberg.x3d" />
+            </Transform>
+			<Transform translation="-14 0 8" rotation="0 1 0 -1.5">
+                <Inline  url="../tombstones/Grete_Herz.x3d" />
+            </Transform>
+			<Transform translation="-13 0 13" rotation="0 1 0 -1.5">
+                <Inline  url="../tombstones/Joseph_Strauss.x3d" />
+            </Transform>
+			<Transform translation="-12 0 16" rotation="0 1 0 -1.7">
+                <Inline  url="../tombstones/Lazarus_Falk.x3d" />
+            </Transform>
+			<Transform translation="-14 0 20" rotation="0 1 0 -1.3">
+                <Inline  url="../tombstones/Leo_Eichwald.x3d" />
+            </Transform>
+			<Transform translation="-13 0 24" rotation="0 1 0 -1.4">
+                <Inline  url="../tombstones/Lina_Kamm.x3d" />
+            </Transform>
+			<Transform translation="-20 0 -4" rotation="0 1 0 -0.2">
+                <Inline  url="../tombstones/Lise_Nassau.x3d" />
+            </Transform>
+			<Transform translation="-21.5 0 -1" rotation="0 1 0 1.6">
+                <Inline  url="../tombstones/Max_Leven.x3d" />
+            </Transform>
+			<Transform translation="-22 0 4" rotation="0 1 0 1.35">
+                <Inline  url="../tombstones/Moritz_Hirsch.x3d" />
+            </Transform>
+			<Transform translation="-25 0 8" rotation="0 1 0 0.9">
+                <Inline  url="../tombstones/Norbert_Bloch.x3d" />
+            </Transform>
+			<!-- oben -->
+			<Transform translation="-29 -0.19 -10" rotation="0 1 0 -1.5">
+                <Inline  url="../tombstones/Rosa_Comperz.x3d" />
+            </Transform>
+			<Transform translation="-30 0 -20" rotation="0 1 0 -1.3">
+                <Inline  url="../tombstones/Siegmund_Lilienfeld.x3d" />
+            </Transform>
+			<Transform translation="-28 0 -16" rotation="0 1 0 -1.7">
+                <Inline  url="../tombstones/Sophie_Weil.x3d" />
+            </Transform>
+		</Group>
+    </Scene>
+</X3D>

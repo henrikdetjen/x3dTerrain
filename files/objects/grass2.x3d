@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE X3D PUBLIC 'ISO//Web3D//DTD X3D 3.0//EN' 'http://www.web3d.org/specifications/x3d-3.0.dtd'>
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+	<Scene>
+		<LOD range='40'>
+			<Group>
+				
+                <Shape>
+                    <Box size="0.6 0.6 0" solid="true"/>
+                    <Appearance>
+                        <ImageTexture DEF="GRASS_TEX" url="../../textures/vegetation/grass1_100_100.png"/>
+                    </Appearance>
+                    <!--TextureTransform scale="1 1"/-->
+                </Shape>
+	                
+				<Transform rotation="0 1 0 1">
+	                <Shape>
+	                    <Box size="0.6 0.6 0" solid="true"/>
+	                    <Appearance>
+	                        <ImageTexture USE="GRASS_TEX"/>
+	                    </Appearance>
+	                </Shape>
+           	 	</Transform>
+           	 	
+           	 	<Transform rotation="0 1 0 2">
+	                <Shape>
+	                    <Box size="0.6 0.6 0" solid="true"/>
+	                    <Appearance>
+	                        <ImageTexture USE="GRASS_TEX"/>
+	                    </Appearance>
+	                </Shape>
+           	 	</Transform>
+           	 	
+			</Group>
+			<Group/>
+		</LOD>
+	</Scene>
+</X3D>
